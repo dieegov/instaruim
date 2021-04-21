@@ -1,0 +1,23 @@
+.photo-card {
+    border: 2px solid #000;
+    border-radius: 24px;
+    margin: 8px;
+
+    &-image {
+        background:#ccc;
+    }
+
+    &-description {
+        font-size: 14px;
+    }
+    
+    &-likes {
+        &.green {
+            color:green;
+        }
+
+        &.red {
+            color: red
+        }
+    }
+}
